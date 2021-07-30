@@ -1,0 +1,49 @@
+.container_bg {
+  background: linear-gradient(to right, #493240, #f09);
+  color: white;
+  width: 35%;
+  margin: 0 auto;
+}
+
+.main_wrapper {
+  background: linear-gradient(to right, #493240, #f09);
+  color: white;
+  width: 35%;
+  margin: 0 auto;
+}
+.Cart_icon {
+  font-size: 7em;
+  opacity: 0.1;
+  color: black;
+}
+.fax {
+  animation: arrow 2s ease-in infinite alternate;
+  transition: all 1s;
+}
+
+@keyframes arrow {
+  0% {
+    transform: translateY(0);
+    /* transform: scaleY(1.1); */
+  }
+  100% {
+    transform: translateY(-10px);
+
+    /* transform: scaleY(1.4); */
+  }
+}
+.car {
+  animation: cart 2s ease-in-out infinite alternate;
+  transition: all 0.9s;
+}
+
+@keyframes cart {
+  0% {
+    transform: translateX(0);
+    /* transform: scaleY(1.1); */
+  }
+  100% {
+    transform: translateX(190%);
+    /* transform: scaleY(1.4); */
+  }
+}
